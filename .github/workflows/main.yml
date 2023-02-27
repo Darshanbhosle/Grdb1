@@ -20,3 +20,4 @@ jobs:
 
     - name: Build project with Maven
       run: mvn -B package --file pom.xml
+        mvn -f <PATH of the file> clean install
