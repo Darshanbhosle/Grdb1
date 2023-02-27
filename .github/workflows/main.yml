@@ -19,4 +19,4 @@ jobs:
         java-version: 14
 
     - name: Build project with Maven
-      run:  mvn -f <"C:\Users\joela\eclipse-workspace\Grdb1\pom.xml"> clean install
+      run:  mvn -f pom.xml clean install
