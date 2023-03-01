@@ -1,7 +1,5 @@
 name: Maven CI/CD
 
-name: Maven CI/CD
-
 on:
  push:
     branches: [ master ]
