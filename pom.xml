@@ -96,18 +96,14 @@
 				</configuration>
 			</plugin>
 
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-surefire-plugin</artifactId>
-				<version>2.20</version>
-				<configuration>
-					<suiteXmlFiles>
-						<suiteXmlFile>testng.xml</suiteXmlFile>
-                                                 <printSummary>true</printSummary>
-					</suiteXmlFiles>
-
-				</configuration>
-			</plugin>
+			   <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-surefire-plugin</artifactId>
+            <version>2.19</version>
+            <configuration>
+                <printSummary>true</printSummary>
+            </configuration>
+        </plugin>
 
 
 		</plugins>
