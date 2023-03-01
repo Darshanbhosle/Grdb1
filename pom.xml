@@ -103,7 +103,7 @@
 				<configuration>
 					<suiteXmlFiles>
 						<suiteXmlFile>testng.xml</suiteXmlFile>
-
+                                                 <printSummary>true</printSummary>
 					</suiteXmlFiles>
 
 				</configuration>
