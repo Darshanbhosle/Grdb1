@@ -18,7 +18,7 @@ public class SignInPageTestcases extends BaseTest {
 	public void validateLogin() throws IOException, InterruptedException {
 
 		
-		SI.SignInToApplication(ReadDataFromPropFile.readConfigData("username"), ReadDataFromPropFile.readConfigData("password"));
+		SI.SignInToApplication("ency Dashboard", "admin123#");
 		
 
 	}
