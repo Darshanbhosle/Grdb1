@@ -23,7 +23,7 @@ jobs:
       run: mvn clean install
       
       
-echo "{markdown content}" >> $GITHUB_STEP_SUMMARY
+Grdb1/reports/GRDB.html
 
 
       
