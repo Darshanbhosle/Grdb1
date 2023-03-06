@@ -20,7 +20,7 @@ jobs:
         java-version: 1.8
 
     - name: Build project with Maven
-      run: mvn install
+      run: mvn -B package --file pom.xml
       
       
 
