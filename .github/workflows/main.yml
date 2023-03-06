@@ -20,10 +20,8 @@ jobs:
         java-version: 1.8
 
     - name: Build project with Maven
-      run: mvn clean install
+      run: mvn install
       
       
-Grdb1/reports/GRDB.html
-
 
       
