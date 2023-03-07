@@ -107,7 +107,7 @@ public class HomePage {
 	@FindBy(xpath="//*[text()='OK']")
 	private WebElement Ok;
 	
-	@FindBy(xpath="(//*[@href='/'])[2]")
+	@FindBy(xpath="//*[@class='hidden lg:flex']")
 	private WebElement WorldWideAlliance;
 	@FindBy(xpath="//*[text()='ALL']")
 	private WebElement All;
@@ -118,7 +118,7 @@ public class HomePage {
 	@FindBy(xpath="//*[text()='OFR']")
 	private WebElement Ofr1;
 
-	@FindBy(xpath="(//*[@height='100%'])[8]")
+	@FindBy(xpath="//*[@fill='currentColor']")
 	private WebElement Theme;
 	
 
