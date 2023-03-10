@@ -43,7 +43,10 @@ WebDriverManager.chromedriver().setup();
 		
 		options.addArguments("--incognito");
 		
+	        options.addArguments("--remote-allow-origins=*");
+	    
 		options.addArguments("--headless");
+	    
 	    String Siteurl = "http://archv3dashboard.s3-website.us-east-2.amazonaws.com/sign-in";
         driver = new ChromeDriver(options);
         driver.get(Siteurl);
